@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Календарь 2/2</title>
+    <link rel="stylesheet" href="test.css">
+</head>
+
+<body>
+
+    <div class="calendar">
+
+        <div class="header">
+            <button id="prev">◀</button>
+            <h2 id="month"></h2>
+            <button id="next">▶</button>
+        </div>
+
+        <div class="weekdays">
+            <div>Пн</div>
+            <div>Вт</div>
+            <div>Ср</div>
+            <div>Чт</div>
+            <div>Пт</div>
+            <div class="weekend-name">Сб</div>
+            <div class="weekend-name">Вс</div>
+        </div>
+
+        <div id="days" class="days"></div>
+
+        <div class="legend">
+            <div><span class="box work"></span> Рабочий день</div>
+            <div><span class="box off"></span> Выходной </div>
+            <div><span class="red">■</span> Суббота/Воскресенье</div>
+        </div>
+
+    </div>
+
+    <script src="test.js"></script>
+
+</body>
+
+</html>
