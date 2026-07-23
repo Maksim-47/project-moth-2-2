@@ -8,7 +8,7 @@ let year = current.getFullYear();
 
 
 // ДАТА НАЧАЛА ГРАФИКА
-const startDate = new Date(2026, 0, 24);
+const startDate = new Date(2026, 6, 23);
 
 
 document.getElementById("prev").onclick = () => {
