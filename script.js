@@ -7,10 +7,8 @@ let month = current.getMonth();
 let year = current.getFullYear();
 
 
-// ======== ДАТА НАЧАЛА ГРАФИКА ========
-// Здесь укажи первый рабочий день
-const startDate = new Date(2026, 0, 22);
-// ================================
+// ДАТА НАЧАЛА ГРАФИКА
+const startDate = new Date(2026, 0, 24);
 
 
 document.getElementById("prev").onclick = () => {
